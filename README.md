@@ -109,7 +109,7 @@ asyncio.run(scrape_quotes())
 
 This example explains how to scrape data from the [“Quotes to Scrape”](https://quotes.toscrape.com/) site:
 
-![The target site](https://paper-attachments.dropboxusercontent.com/s_C07E0B72CB9153F9B6E6EF6B76FDCD439C9910ACC1C4E94E70E103EE716CD2E2_1737465124750_image.png)
+![The target site](https://github.com/luminati-io/aiohttp-web-scraping/blob/main/Images/s_C07E0B72CB9153F9B6E6EF6B76FDCD439C9910ACC1C4E94E70E103EE716CD2E2_1737465124750_image.png)
 
 With libraries like Requests or AIOHTTP, making a GET request directly retrieves the HTML content of the page. However, AIOHTTP operates using a [different request lifecycle](https://docs.aiohttp.org/en/stable/http_request_lifecycle.html).  
 
@@ -282,7 +282,7 @@ python3 scraper.py
 
 A `quotes.csv` file will appear in the root folder of your project. Open it and you will see:
 
-![](https://paper-attachments.dropboxusercontent.com/s_C07E0B72CB9153F9B6E6EF6B76FDCD439C9910ACC1C4E94E70E103EE716CD2E2_1737466185816_image.png)
+![The final quotes file](https://github.com/luminati-io/aiohttp-web-scraping/blob/main/Images/s_C07E0B72CB9153F9B6E6EF6B76FDCD439C9910ACC1C4E94E70E103EE716CD2E2_1737466185816_image.png)
 
 ## AIOHTTP for Web Scraping: Advanced Features and Techniques
 
